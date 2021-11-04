@@ -1,0 +1,115 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var();
+}
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px;
+}
+:root {
+    --clr-primary: #6aeeb5;
+    --clr-primary-hover: #29e6a7;
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+}
+.nav-list {
+    background: black;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    margin: 0%;
+    padding: 1rem 0;
+    border-radius:var(--radius);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease-in;
+}
+.nav-item a:hover{
+    color: var(--clr-primary-dark);
+}
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+.heroimage {
+    align-content: center;
+    transform: translateX(10%);
+    border-style: solid;
+    border-width: 5px;
+    border-color: wheat;
+}
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+.footer-head a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+    color: rgb(165, 215, 247);
+    transition: 0.3s ease-out
+}
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder {
+    color: #b1b1b1;
+}
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: lightskyblue;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+}
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.4s ease-out;
+}
