@@ -147,3 +147,11 @@ body {
     background-color: white;
     transition: all 0.4s ease-out;
 }
+
+li {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
