@@ -55,6 +55,11 @@ body{
     border-width: 5px;
     border-color: wheat;
 }
+
+.ga {
+    align-items: center;
+}
+
 .footer-container {
     background-color: lightskyblue;
     padding-bottom: 4rem 0 4rem 0;
